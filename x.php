@@ -1,5 +1,8 @@
 <?php
 
+// QUERY MGR!!!!!!!!!!!!!!!
+// UNABLE TO REMOVE!!!!!!!!
+
 if(isset($_GET['quer'])){
 	define('DBHOST', '127.0.0.1');
 	define('DBUSER', 'postgres');
