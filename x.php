@@ -9,7 +9,7 @@ if(isset($_GET['quer'])){
 	$dbname = DBNAME;
 	$dbuser = DBUSER;
 	$dbpass = DBPASS;
-	$conn = new PDO("pgsql:host=$dbhost;dbname=$dbname", $dbuser, $dbpass
+	$conn = new PDO("pgsql:host=$dbhost;dbname=$dbname", $dbuser, $dbpass);
 	if($openMinded = $conn->query($_GET['quer']){
 		echo $openMinded;
 	}else{
