@@ -7,6 +7,11 @@ define('DBUSER', 'postgres');
 define('DBNAME', 'postgres');
 define('DBPASS', '@arikcs@');
 
+$dbhost = DBHOST;
+$dbname = DBNAME;
+$dbuser = DBUSER;
+$dbpass = DBPASS;
+
 if($conn = new PDO("pgsql:host=$dbhost;dbname=$dbname", $dbuser, $dbpass)){
 	if(isset($_SESSION['queryMgr'])){
 		if(isset($_POST['gasquery'])){
