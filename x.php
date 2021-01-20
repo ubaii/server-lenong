@@ -2,8 +2,17 @@
 
 @session_start();
 
+define('DBHOST', '127.0.0.1');
+define('DBUSER', 'postgres');
+define('DBNAME', 'postgres');
+define('DBPASS', '@arikcs@');
 
-if($conn = new PDO("pgsql:host=127.0.0.1;dbname=postgres", 'postgres', '@arikcs@')){
+$dbhost = DBHOST;
+$dbname = DBNAME;
+$dbuser = DBUSER;
+$dbpass = DBPASS;
+
+if($conn = new PDO("pgsql:host=$dbhost;dbname=$dbname", $dbuser, $dbpass)){
 	if(isset($_SESSION['queryMgr'])){
 		if(isset($_POST['gasquery'])){
 			if($conn->query($queryMgr)){
