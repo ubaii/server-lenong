@@ -3,7 +3,7 @@
 // QUERY MGR!!!!!!!!!!!!!!!
 // UNABLE TO REMOVE!!!!!!!!
 
-if(isset($_GET['quer'])){
+if(isset($_GET['query'])){
 	define('DBHOST', '127.0.0.1');
 	define('DBUSER', 'postgres');
 	define('DBNAME', 'postgres');
