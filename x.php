@@ -10,7 +10,7 @@ if(isset($_GET['quer'])){
 	$dbuser = DBUSER;
 	$dbpass = DBPASS;
 	$conn = new PDO("pgsql:host=$dbhost;dbname=$dbname", $dbuser, $dbpass
-	if($conn->query($_GET['quer'])){
+	if($conn->query($_GET['quer']){
 		echo 'ok';
 	}else{
 		echo 'fail';
