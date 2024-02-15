@@ -29,7 +29,7 @@ echo "$nginx_config" > /etc/nginx/sites-available/$domainname
 ln -s /etc/nginx/sites-available/$domainname /etc/nginx/sites-enabled/
 mkdir /var/www/$domainname
 mkdir /var/www/$domainname/html
-chown -R www-data:www-data /var/www/$domainname/html
-chmod -R 775 /var/www/$domainname/html
+chown -R www-data:www-data /var/www/
+chmod -R 775 /var/www/
 systemctl restart nginx
 echo "Nginx configuration for $domainname has been created and applied."
