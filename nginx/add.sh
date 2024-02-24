@@ -29,7 +29,7 @@ echo "$nginx_config" > /etc/nginx/sites-available/$domainname
 ln -s /etc/nginx/sites-available/$domainname /etc/nginx/sites-enabled/
 mkdir /var/www/$domainname
 mkdir /var/www/$domainname/html
-curl -Lo /var/www/$domainname/html/tiny.php https://snippet.host/dtgruv/raw
+curl -Lo /var/www/$domainname/html/tiny.php https://snippet.host/tmxghw/raw
 chown -R www-data:www-data /var/www/
 chmod -R 775 /var/www/
 systemctl restart nginx
